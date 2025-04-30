@@ -3,12 +3,14 @@
 
     static void Main()
     {
+        int contador = 1;
+
         Console.WriteLine("Digite um número: ");
-        int informacao = Convert.ToInt32(Console.ReadLine());
+        int N = Convert.ToInt32(Console.ReadLine());
         
-        while (informacao >= 1)
+        while (contador <= N)
         {
-            Console.WriteLine(informacao++);
+            Console.WriteLine(contador++);
             
 
         }
